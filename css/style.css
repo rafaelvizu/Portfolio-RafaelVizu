@@ -68,7 +68,6 @@ nav > div > img {
     background-image: url(../img/coding.jpg);
     background-size: cover;
     background-attachment: fixed;
-    height: 400px;
     margin-top: 5px;
 }
 
@@ -78,7 +77,6 @@ nav > div > img {
     align-items: center;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.514);
-    height: 400px;
     text-align: center;
 }
 
@@ -92,9 +90,11 @@ nav > div > img {
     .sessao {
         color: white;
         background-position: right center;
+        height: 270px;
     }    
     .sessao > p {
-        font-size: 2em; 
+        font-size: 2em;
+        height: 270px; 
     }
 }
 
@@ -104,9 +104,12 @@ nav > div > img {
     .sessao {
         color: var(--cor04);
         background-position: center right;
+        height: 400px;
     }
     .sessao > p {
         font-size: 3em;
+        height: 400px;
+
     }
     .sessao:hover {
         color: white;
