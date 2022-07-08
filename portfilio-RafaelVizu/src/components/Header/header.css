@@ -15,11 +15,22 @@ header {
 .linkH{
      color: black;
      text-decoration: none;
-     margin: 20px 10px;
-     font-size: 1.4em;
 }
 
 .linkH:hover{
      text-decoration: underline;
      color: rgba(0, 0, 0, 0.829);
+}
+
+@media (max-width: 600px) {
+     .linkH {
+          margin: 10px 5px;
+     }
+}
+
+@media (min-width: 600px) {
+     .linkH {
+          margin: 20px 10px;
+          font-size: 1.5em;
+     }
 }
