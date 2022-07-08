@@ -1,0 +1,114 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body {
+     background-color: black;
+}
+
+.home-container, .perfil-container, .habilidades-container, .contatos-container{
+     width: 100vw;
+     height: 70vh;
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.home-profile > img {
+     width: 200px;
+     border-radius: 50%;
+     margin: 10px 0px;
+     border: 2px solid white;
+}
+
+.home-profile > h1 {
+     color: white;
+     text-align: center;
+     margin-bottom: 5px;
+}
+
+
+
+.perfil-container, .habilidades-container, .contatos-container{
+     color: white;
+}
+
+.perfil-info{
+     color: white;
+     width: 280px;
+     padding: 10px;
+}
+
+.perfil-info > h2{
+     margin-bottom: 30px;
+     font-size: 2.2em;
+}
+
+.perfil-info > p {
+     text-align: justify;
+     line-height: 1.4em;
+     font-size: 1.3em;
+     margin-bottom: 30px;
+}
+
+
+.habilidades-names {
+     padding: 5px;
+}
+
+.habilidades-names > h2 {
+     margin-bottom: 30px;
+     font-size: 2.2em;
+}
+.habilidades-names > ul{
+     margin-left: 20px;
+     font-size: 1.5em;
+     margin-bottom: 30px;
+}
+
+.habilidades-names > ul > li {
+     margin-bottom: 5px;
+}
+
+.contatos-container > div > a{
+     margin: 10px;
+     color: rgba(255, 255, 255, 0.603);
+     text-decoration: none;
+     font-size: 1.3em;
+}
+
+.contatos-container > div > a:hover{
+     color: rgba(255, 255, 255, 0.822);
+     text-decoration: underline;
+}
+
+.contatos-container {
+     text-align: center;
+}
+.contatos-container > div > h2{
+     color: white;
+     font-size: 2.2em;
+     margin-bottom: 10px;
+}
+
+hr {
+     margin: 10px 0px;
+     border-color: rgba(255, 255, 255, 0.479);
+}
+
+
+.link {
+     display: block;
+     text-align: center;
+     color: rgba(255, 255, 255, 0.671);
+     text-decoration: none;
+}
+
+
+.link:hover{
+     text-decoration: underline;
+     color: rgba(255, 255, 255, 0.900);
+}
